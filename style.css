@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+body {
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: rgb(253,167,29);
+    background: 
+    linear-gradient(0deg, rgba(253,167,29,1) 30%, 
+    rgba(252,249,69,1) 87%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+div {
+    height: 100vh;
+    position: relative;
+}
+h1 {
+    font-size: 7vw;
+}
+h2 {
+    font-size: 5vw;
+}
+p {
+    font-size: 2.25vw;
+}
+button{
+    position: absolute;
+    bottom: 5vh;
+    font-size: 2vh;
+    background-color: yellow;
+    border: 0;
+    height: 5vh;
+    color: rgb(229, 88, 0);
+}
+button:hover {
+    opacity: 75%;
+    cursor: pointer;
+}
+button.back {
+    left: 1vw;
+}
+button.forwd {
+    right: 1vw;
+}
+img {
+    width: 50nvw;
+}
+a {
+    cursor: pointer;
+}
+@keyframes cf {
+    0%{background-color:rgb(185, 4, 205)}
+    25%{background-color:rgb(255, 0, 157)}
+    50%{background-color:rgb(255,0,0)}
+    75%{background-color:rgb(255, 0, 157)}
+    100%{background-color:rgb(185, 4, 205)}
+}
+#cf {
+    background-color: rgb(255, 0, 157);
+    animation-name: cf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#b0 {
+    bottom: 28vh;
+    font-size: 2.5vw;
+    left: 40vw;
+    right: 40vw;
+    block-size: 3vw;
+}
+#b1 {
+    bottom: 18vh;
+    font-size: 2.5vw;
+    left: 37.5vw;
+    right: 37.5vw;
+    block-size: 3vw;
+}
+#ee1 {
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    text-align: left;
+}
